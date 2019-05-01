@@ -1,5 +1,5 @@
 body {
-  background-color: #fefefe;
+  background-color: #f1f1f1;
   margin: 0px;
 }
 
@@ -9,6 +9,7 @@ body > h1 {
 
 body > header {
   border: 1px solid #000;
+  background-color: #ffffff;
 }
 
 body > footer {
@@ -16,9 +17,10 @@ body > footer {
 }
 
 main {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   border: 1px solid #000;
+  background-color: #ffffff;
 
 }
 
