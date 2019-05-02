@@ -38,12 +38,18 @@ body > main > h2 {
 	font-size: 16px;
   padding: 0.5px 7px;
 	margin-top: 7px;
-	border: 1px solid #444;
+	border: 1px solid #000;
 }
 
 .head_name > a {
 	text-decoration: none;
-	color: #444;
+	color: #000;
+}
+
+.prof_pix {
+	height: 50px;
+  width: 50%;
+	float: right;
 }
 
 
