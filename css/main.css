@@ -2,7 +2,10 @@
 /* Imports */
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Neuton');
 
+/* CSS */
 
 body {
 	margin: 0;
@@ -15,6 +18,14 @@ body {
 
 body > header {
   background-color: #0090ff;
+}
+
+body > main {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+body > main > h2 {
+	text-decoration: underline;
 }
 
 .head_container {
