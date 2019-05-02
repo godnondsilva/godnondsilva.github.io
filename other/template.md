@@ -1,7 +1,9 @@
+Default template of https://godnondsilva.github.io
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Godnon Dsilva - Apps</title>
+    <title>Godnon Dsilva - </title>
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css" >
@@ -21,7 +23,7 @@
     </header>
 
     <main>
-      Sorry, I don't have any apps right now!<br /> <br />
+    <!-- Enter text here -->
     </main>
 
     <footer>
