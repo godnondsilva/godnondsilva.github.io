@@ -1,35 +1,102 @@
-body {
-  background-color: #f1f1f1;
-  margin: 0px;
-}
 
-body > h1 {
-  font-weight: bold !important;
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+
+body {
+	margin: 0;
+	background-color: #eee;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+	height: 100%;
+	width: 100%;
 }
 
 body > header {
-  border: 1px solid #000;
-  background-color: #ffffff;
+  background-color: #0090ff;
+}
+.head_container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-body > footer {
-  color: #0000aa;
+.head_name {
+  float: left;
+	font-size: 16px;
+  padding: 0.5px 7px;
+	margin-top: 7px;
+	border: 1px solid #444;
 }
+
+.head_name > a {
+	text-decoration: none;
+	color: #444;
+}
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-bottom:7px;
+  margin-left: 70px;
+  padding-top: 8px;
+
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+	top: 0;
+  width: 0%;
+  position: relative;
+
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
 
 main {
-  margin-left: 50px;
-  margin-right: 50px;
-  border: 1px solid #000;
-  background-color: #ffffff;
+	color: #444;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+  margin-left: 40px;
+  margin-right: 40px;
 
 }
 
 footer {
-  margin-left: 20px;
-  margin-right: 20px;
-  border: 1px solid #000;
-}
-
-#b_l {
-  background-color: #000;
+	margin-top: 0;
+  background-color: #0090ff;
 }
