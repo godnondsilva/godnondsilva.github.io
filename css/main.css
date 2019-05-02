@@ -9,8 +9,8 @@
 /* CSS */
 
 body {
-	margin-left: 50px;
-	margin-right: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
 	background-color: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
@@ -26,8 +26,7 @@ body > main {
 	padding-top: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-  margin-left: 80px;
-  margin-right: 80px;
+	border-bottom: 1px solid #ddd;
 }
 
 body > main > h2 {
