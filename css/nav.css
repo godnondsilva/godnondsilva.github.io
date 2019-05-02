@@ -18,23 +18,18 @@ body > header {
 .head_name {
   float: left;
 	font-size: 20px;
-  padding: 0.5px 5px;
-	margin-top: 1px;
+  padding: 1px 5px;
+	margin-top: 2px;
+  margin-bottom: 5px;
 	border: 1px solid #000;
 	border-width: medium;
 }
 
 .head_name > a {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
 	text-decoration: none;
 	color: #000;
-}
-
-.prof_pic {
-	float: right;
-	border: 1px solid #000;
-	border-width: medium;
-	margin: 0;
-	padding: 15px;
 }
 
 header::after {
@@ -66,7 +61,8 @@ nav a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
 }
 
 nav a:hover {

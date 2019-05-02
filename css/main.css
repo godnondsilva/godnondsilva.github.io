@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Neuton');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 /* CSS */
 
@@ -14,6 +15,16 @@ body {
 	font-weight: 800;
 	height: 100%;
 	width: 100%;
+}
+
+
+
+.prof_pic {
+	float: right;
+	border: 1px solid #000;
+	border-width: medium;
+	margin: 0;
+	padding: 15px;
 }
 
 body > main {
