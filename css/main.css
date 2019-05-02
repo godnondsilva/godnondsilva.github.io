@@ -9,7 +9,7 @@
 
 body {
 	margin: 0;
-	background-color: #eee;
+	background-color: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 	height: 100%;
@@ -17,15 +17,17 @@ body {
 }
 
 body > header {
-  background-color: #0090ff;
+  background-color: #0077ff;
 }
 
 body > main {
 	font-family: 'Open Sans', sans-serif !important;
+	color: #ddd;
 }
 
 body > main > h2 {
 	text-decoration: underline;
+	color: #0077ff;
 }
 
 .head_container {
