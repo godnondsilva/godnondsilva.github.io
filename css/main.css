@@ -38,11 +38,10 @@ body > main {
 }
 
 body > main > h2 {
-	text-decoration: underline;
 	color: #0077ff;
 }
 
 footer {
 	margin-top: 0;
-  background-color: #0090ff;
+	color: #ddd;
 }
