@@ -1,7 +1,7 @@
 /* Imported fonts */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 /* CSS */
 
@@ -19,7 +19,7 @@
 }
 
 .head_name > a {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 22px;
 	text-decoration: none;
 	color: #fff;
