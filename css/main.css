@@ -29,9 +29,9 @@ body > main {
 	padding-top: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 80px;
-  margin-right: 80px;
-	border-bottom: 1px solid #111;
+	margin-left: 300px;
+  margin-right: 300px;
+	border-bottom: 1px solid #383838;
 }
 
 body > main > h2 {
@@ -40,7 +40,7 @@ body > main > h2 {
 
 footer {
 	margin-top: 0;
-	color: #111;
+	color: #383838;
 }
 
 .lower-l {
