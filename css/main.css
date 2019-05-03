@@ -4,4 +4,10 @@ body {
 
 .about-me, .prof-det {
 	color: #000;
+	margin-top: 0;
+}
+
+.prof-pic {
+	width: 200px;
+	height: 200px;
 }
