@@ -7,7 +7,7 @@
 
 
 body > header {
-  background-color: #0077ff;
+  background-color: rgb(26, 115, 232);
 }
 
 .head_container {
@@ -19,17 +19,15 @@ body > header {
   float: left;
 	font-size: 20px;
   padding: 1px 5px;
-	margin-top: 2px;
+	margin-top: 4px;
   margin-bottom: 5px;
-	border: 1px solid #000;
-	border-width: medium;
 }
 
 .head_name > a {
   font-family: 'Anton', sans-serif;
   font-size: 22px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 
 header::after {
@@ -58,7 +56,7 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
