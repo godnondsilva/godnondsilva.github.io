@@ -29,4 +29,5 @@ body > main > center > h3 > a {
   text-decoration: none;
   padding: 1px 5px;
   border: 1px solid #0077ff;
+  border-radius: 5px;
 }
