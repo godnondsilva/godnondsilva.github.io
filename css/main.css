@@ -1,3 +1,7 @@
 body {
 	color: #333;
 }
+
+.about-me, .prof-det {
+	color: #000;
+}
