@@ -29,8 +29,20 @@ body > main {
 	padding-top: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 300px;
-  margin-right: 300px;
+}
+
+@media (min-width: 480px) {
+    body > main {
+       margin-left: 300px;
+			 margin-right: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    body > main {
+       margin-left: 100px;
+			 margin-right: 100px;
+    }
 }
 
 body > main > h2 {
