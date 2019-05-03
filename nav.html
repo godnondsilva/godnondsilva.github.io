@@ -9,7 +9,7 @@
 
 </head>
 <header class="header">
-  <nav class="navbar navbar-style">
+  <nav class="navbar navbar-inverse">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#hideicon">
@@ -26,9 +26,20 @@
 
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/">Home</a></li>
-          <li><a href="/apps.html">Apps</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact Us</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Apps
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/apps.html">Scratch</a></li>
+              <li><a href="#">Kodular</a></li>
+              <li><a href="#">Android Studio</a></li>
+            </ul>
+          </li>
+
+          <li><a href="">Templates</a></li>
+
+          <li><a href="">Contact</a></li>
         </ul>
 
       </div>
