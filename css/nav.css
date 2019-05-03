@@ -6,7 +6,7 @@
 /* CSS */
 
 .head_container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ nav ul {
 nav li {
 	display: inline-block;
 	margin-bottom: 7px;
-  margin-left: 70px;
+  margin-left: 80px;
   padding-top: 7px;
 
 	position: relative;
@@ -54,7 +54,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }
 
