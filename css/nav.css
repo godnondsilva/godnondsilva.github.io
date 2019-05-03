@@ -6,7 +6,7 @@
 /* CSS */
 
 .head_container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@
 
 .head_name > a {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -54,7 +54,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
 
