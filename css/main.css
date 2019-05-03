@@ -8,6 +8,10 @@
 
 /* CSS */
 
+body > header {
+	background-color: rgb(26, 115, 232);
+}
+
 body {
 	background-color: #fff;
 	font-family: 'Work Sans', sans-serif;

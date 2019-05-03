@@ -5,11 +5,6 @@
 
 /* CSS */
 
-
-body > header {
-  background-color: rgb(26, 115, 232);
-}
-
 .head_container {
   width: 90%;
   margin: 0 auto;
