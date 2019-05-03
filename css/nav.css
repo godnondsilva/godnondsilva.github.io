@@ -3,10 +3,6 @@
 	padding: 0;
 }
 
-.header {
-	height: 100vh;
-}
-
 .navbar-style {
 	box-shadow: 0 5px 10px #efefef;
 	text-transform: uppercase;
@@ -22,4 +18,10 @@
 
 li a {
 	color: #333;
+}
+
+.web-name {
+  text-decoration: none;
+  font-size: 22px;
+  color: darkorange;
 }
