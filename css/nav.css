@@ -19,18 +19,16 @@
   border: 1px solid #9d9d9d;
   border-radius: 2px;
   border-width: medium;
-  padding: auto 10px;
-  margin-left: 10px;
 }
 
 .border {
-  margin-left: 5px;
+  margin-left: 35px;
 }
 
 .navbar-inverse {
 	box-shadow: 0 5px 10px #888;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 .icon-bar {
