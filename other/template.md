@@ -3,11 +3,23 @@ Default template of https://godnondsilva.github.io
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Godnon Dsilva - </title>
-
-    <meta charset="utf-8">
+    <title>Godnon Dsilva - Codes</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/main.css" >
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information about Godnon Dsilva, a programmer and a tech enthusiast!"/>
+    <meta name="keywords" content="personal, blog, help, coding, programmers, godnon, dsilva, Godnon, Dsilva"/>
+    <meta name="author" content="Godnon Dsilva" />
+    <meta name="copyright" content="Godnon Dsilva" />
+    <meta name="robots" content="index, follow"/>
+    <!-- Icon -->
+    <link rel="icon" href="/images/husky_icon.png">
+    <!-- Imports -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header>
@@ -23,7 +35,12 @@ Default template of https://godnondsilva.github.io
     </header>
 
     <main>
-    <!-- Enter text here -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <!-- Enter Data here -->
+        </div>
+      </div>
     </main>
 
     <footer>

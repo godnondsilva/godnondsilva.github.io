@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Godnon Dsilva - Simple 404 Page</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" >
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information about Godnon Dsilva, a programmer and a tech enthusiast!"/>
+    <meta name="keywords" content="personal, blog, help, coding, programmers, godnon, dsilva, Godnon, Dsilva"/>
+    <meta name="author" content="Godnon Dsilva" />
+    <meta name="copyright" content="Godnon Dsilva" />
+    <meta name="robots" content="index, follow"/>
+    <!-- Icon -->
+    <link rel="icon" href="/images/husky_icon.png">
+    <!-- Imports -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="nav-placeholder">
+
+      </div>
+
+      <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
+      });
+      </script>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="post-header">Simple 404 page using HTML & CSS only!</h2>
+            <br />
+            <p class="all-text">
+            Create a simple 404 page with just HTML & CSS with beginner level coding! If this is your first time
+            coding then this will really help you get started. This is a really basic version of a 404 Page. It contains neither bootstrap
+            nor Javascript!
+            <br />
+            <br />
+            This was a project I used in this website a while ago (from the time of writing), which was then removed.
+            It is made using HTML & CSS only... A pretty basic template for people who want to get into web development.
+            <br />
+            <br />
+
+            NOTE: This does not use bootstrap, hence it is not responsive, this is just a basic template.
+            <br />
+            <br />
+            If you don't know what this means then in simple words, this template is not non-desktop friendly</p>
+            <hr>
+            <h2 class="post-header2">Let's get into the coding part: </h2>
+            <br />
+            <p class="all-text">This is the <code>HTML</code> of the template:</p>
+<pre style="background-color: #222; color: #ddd;">
+&lt;!-- Simple 404 Page using HTML & CSS --&gt;
+&lt;!-- Author: Godnon Dsilva --&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;!-- Enter your title of the page --&gt;
+    &lt;title&gt;404 - Page not found&lt;/title&gt;
+
+    &lt;!-- Link the CSS posted below to this page, change the href --&gt;
+    &lt;link rel="stylesheet" href="/404.css" &gt;
+
+    &lt;!--  Enter your website icon --&gt;
+    &lt;link rel="icon" href="YOUR_WEBSITE_ICON_LINK"&gt;
+
+    &lt;!-- This one is very important, don't skip this part! --&gt;
+    &lt;base href=""&gt; &lt;!-- Enter your website URL here --&gt;
+
+    &lt;!-- Just some important metas, you can ignore these --&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;!-- If you want to learn more about them then visit https://www.w3schools.com/tags/tag_meta.asp --&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;main&gt;
+      &lt;center&gt;
+        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br/&gt;
+  			&lt;h1&gt;404 - Page not found!&lt;/h1&gt;
+  			&lt;p&gt;Oops! Itseems like you're lost, let me help you find your way back home!&lt;br /&gt;
+                  The following problems could be the case:&lt;br&gt;&lt;br&gt;
+                  • The link is broken&lt;br /&gt;
+                  • This page never existed&lt;br /&gt;
+                  • This page has been removed&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+        &lt;h3&gt;&lt;a href="/"&gt;Click here to go back home&lt;/a&gt;&lt;/h3&gt;
+        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+      &lt;/center&gt;
+    &lt;/main&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+            <br />
+            <p class="all-text">This concludes the HTML part of the template. <br /> Moving on to <code>CSS</code> part</p>
+            <pre style="background-color: #222; color: #ddd;">
+/* Simple 404 Page using HTML & CSS */
+/* Author: Godnon Dsilva */
+
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* CSS */
+body {
+  background-color: #222;
+  font-family: 'Anton',  sans-serif;
+  margin: 0;
+}
+
+
+body > main > center > p {
+  color: #ddd;
+  font-family: 'Open Sans'. sans-serif !important;
+}
+
+body > main > center > h1 {
+  text-transform: uppercase;
+  color: #0077ff;
+  font-size: 48px;
+}
+
+body > main > center > h3 > a {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #000;
+  background-color: #0077ff;
+  text-decoration: none;
+  padding: 1px 5px;
+  border: 1px solid #0077ff;
+  border-radius: 5px;
+}
+            </pre>
+            <hr>
+            <h2 class="post-header2">Download Links:</h2>
+            <br />
+            <h4>Link 1: Codepen:</h4>
+            <button type="button" class="btn btn-primary" href="">Download from Codepen</button>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="bottom-footer">
+
+      </div>
+
+      <script>
+      $(function(){
+        $("#bottom-footer").load("footer.html");
+      });
+      </script>
+    </footer>
+  </body>
+</html>
