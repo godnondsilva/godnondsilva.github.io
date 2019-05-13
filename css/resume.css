@@ -1,0 +1,93 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+/* CSS */
+
+
+main {
+	color: #333;
+}
+
+.about-me, .prof-det {
+	color: #000;
+	margin-top: 0;
+}
+
+.prof-pic {
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.main-header {
+	font-size: 52px;
+	color: #fff;
+	font-weight: 800;
+	/* font-family: 'Bitter', sans-serif; */
+	font-family: 'Cabin', sans-serif;
+}
+
+.post-header {
+	font-family: 'Cabin', sans-serif;
+	text-decoration: underline;
+	font-size: 32px;
+}
+
+.post-header2 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 30px;
+}
+
+.post-desc {
+	font-size: 16px;
+}
+
+.index-header {
+	font-family: 'Cabin', sans-serif;
+}
+
+.index-desc {
+	font-size: 16px;
+}
+
+.all-text {
+	font-size: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.links {
+  text-decoration: none;
+  color: #eee;
+}
+
+.blog-links {
+	text-decoration: none;
+  color: #444;
+}
+
+.sidebar-header {
+	font-size: 24px;
+	margin-top: 15px;
+	margin-left: 20px;
+	text-decoration: underline;
+}
+
+.sidebar-text {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.bg-text {
+	text-shadow: 2px 2px #000000;
+}
