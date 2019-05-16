@@ -11,7 +11,7 @@ nav,body {
 }
 
 .bg-custom {
-  background-color: #222;
+  background-color: #222222;
 }
 
 .navbar-brand {
@@ -87,13 +87,13 @@ nav,body {
 
   .heading1 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
 
   }
 
   .heading2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 34px;
   }
   .front-bg {
     width:100% ;
