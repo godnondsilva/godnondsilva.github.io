@@ -15,6 +15,14 @@ nav,body {
   height : 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .leftside,.rightside {
+    display : flex;
+    height : 761px;
+  }
+}
+
+
 .leftside-text {
   color: #eee;
   margin-bottom: 60px;
