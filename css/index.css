@@ -12,7 +12,7 @@ nav,body {
 
 .leftside,.rightside {
   display : flex;
-  height : 721px;
+  height : 100%;
 }
 
 .leftside-text {
